@@ -1,0 +1,80 @@
+Sturm-bound proofs of the modular identities in docs/proof.md, step (2d)
+
+PASS  eta quotient η(2τ)^20η(1τ)^-8η(4τ)^-8 in M2(Γ0(4))
+      Σr_δ = 4, Σδr_δ = 0 ≡ 0, Σ(N/δ)r_δ = 0 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 0, 1/2: 1, 0: 0
+PASS  eta quotient η(1τ)^8η(2τ)^-4 in M2(Γ0(4))
+      Σr_δ = 4, Σδr_δ = 0 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 0, 1/2: 0, 0: 1
+PASS  eta quotient 16·η(4τ)^8η(2τ)^-4 in M2(Γ0(4))
+      Σr_δ = 4, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = 0 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 1/2: 0, 0: 0
+PASS  θ3^4, θ4^4, θ2^4 eta quotients match the theta sums (Ono Thm 1.60; transcription check)
+      exact through q^59
+PASS  level 4: F2 = θ3^4
+      M2(Γ0(4)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 4: G2 = θ4^4 - θ2^4
+      M2(Γ0(4)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  Jacobi: θ3^4 = θ2^4 + θ4^4
+      M2(Γ0(4)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  eta quotient η(1τ)^16η(2τ)^-8 in M4(Γ0(2))
+      Σr_δ = 8, Σδr_δ = 0 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 0, 0: 1
+PASS  eta quotient η(2τ)^16η(1τ)^-8 in M4(Γ0(2))
+      Σr_δ = 8, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = 0 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 0: 0
+PASS  level 2: F2^2 = A + 64 B
+      M4(Γ0(2)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 2: F4 = A - 64 B
+      M4(Γ0(2)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  eta quotient η(2τ)^24 in M12(Γ0(4))
+      Σr_δ = 24, Σδr_δ = 48 ≡ 0, Σ(N/δ)r_δ = 48 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 2, 1/2: 2, 0: 2
+PASS  eta quotient η(4τ)^24 in M12(Γ0(4))
+      Σr_δ = 24, Σδr_δ = 96 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 4, 1/2: 1, 0: 1
+PASS  level 2: Theorem 9.3 λ form = eta form (τ -> 2τ)
+      M32(Γ0(4)); Sturm bound: agreement needed through q^16; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  eta quotient η(1τ)^24 in M12(Γ0(1))
+      Σr_δ = 24, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1
+PASS  level 1: E4^3 - E6^2 = 1728 η^24
+      M12(Γ0(1)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 1: j = E4^3/η^24 = q^-1 + 744 + ... (Apostol Thm 1.20)
+      first coefficients of q·j: 1, 744, 196884, 21493760
+PASS  level 1: j = 256(1-λ+λ²)³/(λ²(1-λ)²) (τ -> 2τ)
+      M24(Γ0(4)); Sturm bound: agreement needed through q^12; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  eta quotient η(1τ)^9η(3τ)^-3 in M3(Γ0(3), (-3/.))
+      Σr_δ = 6, Σδr_δ = 0 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 0, 0: 1
+PASS  eta quotient 27·η(3τ)^9η(1τ)^-3 in M3(Γ0(3), (-3/.))
+      Σr_δ = 6, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = 0 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 0: 0
+PASS  eta quotient η(1τ)^3η(3τ)^-1 in M1(Γ0(9), (-3/.))
+      Σr_δ = 2, Σδr_δ = 0 ≡ 0, Σ(N/δ)r_δ = 24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 0, 1/3: 0, 0: 1
+PASS  b = (3 a(q^3) - a(q))/2 as q-series (proved by the lattice argument in docs/proof.md)
+      exact through q^59
+PASS  level 3: a^2 = F2
+      M2(Γ0(3)); Sturm bound: agreement needed through q^0; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 3: b = η(τ)^3/η(3τ)
+      M1(Γ0(9), (-3/.)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 3: F2^3 = (B3 + C3)^2
+      M6(Γ0(3)); Sturm bound: agreement needed through q^2; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  level 3: F4^2 = F2 (B3 - C3)^2
+      M8(Γ0(3)); Sturm bound: agreement needed through q^2; compared q^0..q^59 (60 coefficients), agree through q^59
+PASS  (3a) fundamental-domain bounds on |c|, |d| <= 200 (proved in the text for all c, d)
+      c²/N - |cd| + d² >= 1 on Γ0(N); c² - N|cd| + N d² >= 1 on the Fricke coset
+PASS  eta quotient η(2τ)^24η(1τ)^-24 in A0(Γ0(2))
+      Σr_δ = 0, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = -24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 0: -1
+PASS  (3b) t = (η(2τ)/η(τ))^24: one simple pole on X0(2)
+      weight 0, character 1, 2 cusps, orders by cusp denominator d: d=2: 1, d=1: -1 (d = N is ∞, d = 1 is 0)
+PASS  eta quotient η(3τ)^12η(1τ)^-12 in A0(Γ0(3))
+      Σr_δ = 0, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = -24 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 0: -1
+PASS  (3b) t = (η(3τ)/η(τ))^12: one simple pole on X0(3)
+      weight 0, character 1, 2 cusps, orders by cusp denominator d: d=3: 1, d=1: -1 (d = N is ∞, d = 1 is 0)
+PASS  eta quotient 16·η(1τ)^8η(4τ)^16η(2τ)^-24 in A0(Γ0(4))
+      Σr_δ = 0, Σδr_δ = 24 ≡ 0, Σ(N/δ)r_δ = 0 ≡ 0 (mod 24); Ligozat orders at the cusps (c/d grouped by d) ∞: 1, 1/2: -1, 0: 0
+PASS  (3b) λ = 16 η(τ)^8 η(4τ)^16 / η(2τ)^24: one simple pole on X0(4)
+      weight 0, character 1, 3 cusps, orders by cusp denominator d: d=4: 1, d=2: -1, d=1: 0 (d = N is ∞, d = 1 is 0)
+PASS  control: a false identity fails
+      F2^2 = A + 63 B: M4(Γ0(2)); Sturm bound: agreement needed through q^1; compared q^0..q^59 (60 coefficients), agree through q^0
+PASS  control: rejected, η(τ)^3/η(3τ) at level 3 fails Σ(N/δ)r_δ ≡ 0 (mod 24)
+      level 3: η(1τ)^3η(3τ)^-1: fails the Gordon–Hughes–Newman congruences at level 3
+PASS  control: rejected, η(2τ)^4/η(τ)^8 has a pole at the cusp 0
+      level 4: η(1τ)^-8η(2τ)^4: pole at cusps with denominator 1
+PASS  control: rejected, (η(τ)/η(2τ))^24 has a pole at the cusp ∞
+      level 2: η(1τ)^24η(2τ)^-24: pole at cusps with denominator 2
+PASS  control: adding forms of different weight is refused
+      M4(Γ0(2)) + M2(Γ0(4))
+
+All identities hold.

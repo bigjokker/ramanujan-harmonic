@@ -1,0 +1,31 @@
+Q1 audit of https://mathoverflow.net/a/514778
+
+PASS  singular modulus hits 256
+      k_3^2 (1-k_3^2) = 1/16 and k_3 k_3' = 1/4, so the Nicholson sum is the 256-series
+PASS  identity at k_3 equals series (2)
+      substituting K(k_3), K'/K = sqrt(3) and k k' = 1/4 recovers the closed form
+PASS  K(k_3) gamma value
+      |ellipk(k_3^2) - formula| = 4.591774807899560578002877098524397178979e-41
+PASS  K(k_3')/K(k_3) = sqrt(3)
+      |K'/K - sqrt(3)| = 4.591774807899560578002877098524397178979e-41
+PASS  Nicholson identity at k=0.2
+      |LHS - RHS| = 7.102901655969632769098200511779926886233e-41
+PASS  Nicholson identity at k=0.5
+      |LHS - RHS| = 2.582873329443502825126618367919973413176e-41
+PASS  Nicholson identity at k=0.2588190451025207623488988376240483283491
+      |LHS - RHS| = 4.699394529959706529049819530521062737861e-41
+PASS  generating function (1) at k=0.4
+      |series - elliptic form| = 3.372084624551239799470862869228854178313e-41
+PASS  generating function (2) at k=0.4
+      |series - elliptic form| = 2.869859254937225361251798186577748236862e-42
+PASS  sum f equals the gamma product
+      |partial sum - closed form| = 2.755064884739736346801726259114638307387e-40
+PASS  series (2) equals its closed form
+      |partial sum - closed form| = 2.604397273855532015336006854319306524952e-40
+PASS  λ = -sqrt(3) π for this f
+      |λ + sqrt(3) π| = 1.469367938527859384960920671527807097273e-39
+
+Result: the answer checks out.
+Legendre's modulus gives the 256^k series. K(k_3) and K'/K = sqrt(3) match.
+Nicholson's identity is checked numerically at k=0.2, 0.5 and k_3. This script does not prove it.
+Substituting that identity at k_3 produces the closed form of series (2). |partial sum - closed form| = 2.604397273855532015336006854319306524952e-40
