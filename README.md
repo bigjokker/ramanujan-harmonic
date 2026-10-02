@@ -6,7 +6,7 @@ A proof, with computer verification, of Conjecture 1 from [MathOverflow question
 
 For a rational hypergeometric Ramanujan series $\sum (an+b)f(n)$, the conjecture says that the index derivative of the summand satisfies
 
-$$\operatorname{Re}\sum_{n\ge0} f'(n) = -2\pi\operatorname{Im}(\tau)\sum_{n\ge0} f(n),$$
+$$\mathrm{Re}\,\sum_{n\ge0} f'(n) = -2\pi\mathrm{Im}(\tau)\sum_{n\ge0} f(n),$$
 
 where $\tau$ is the point attached to the series in the table of Cohen and Guillera ([arXiv:2101.12592](https://arxiv.org/abs/2101.12592), Section 3).
 
@@ -14,9 +14,9 @@ The proof here establishes a stronger, complex identity:
 
 $$\sum_{n\ge0} f'(n) = 2\pi i\,\tilde\tau\sum_{n\ge0} f(n),\qquad \tilde\tau=\begin{cases}\tau, & a>0,\\ \tau-1, & a<0,\end{cases}$$
 
-where $f(x) = A(x)\,e^{-x\operatorname{Log}a}$ and $a = J_N(\tau)$.
+where $f(x) = A(x)\,e^{-x\mathrm{Log}\,a}$ and $a = J_N(\tau)$.
 
-- The identity holds for every $\tau$ on the imaginary axis above $i/\sqrt N$. It also holds for every $\tau$ on the line $\operatorname{Re}\tau=\tfrac12$ above the corner of the fundamental domain with $-1\le 1/J_N(\tau)<0$.
+- The identity holds for every $\tau$ on the imaginary axis above $i/\sqrt N$. It also holds for every $\tau$ on the line $\mathrm{Re}\,\tau=\tfrac12$ above the corner of the fundamental domain with $-1\le 1/J_N(\tau)<0$.
 - It doesn't use complex multiplication, so $\tau$ need not be a CM point.
 - Conjecture 1, for all 36 convergent series in the table, is the special case at the printed CM points.
 - Series (2) of the question (Q1) is the level-4 case $\tau=i\sqrt3/2$.
