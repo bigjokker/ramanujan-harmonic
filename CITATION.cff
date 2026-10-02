@@ -5,7 +5,7 @@ title: "Ramanujan's 1/π Series and Harmonic Numbers: Proof and Verification"
 authors:
   - name: "Open"
 version: "1.0.0"
-date-released: "2026-10-01"
+date-released: "2026-10-02"
 license:
   - MIT
   - CC-BY-4.0
@@ -18,6 +18,14 @@ abstract: >-
   the Cohen–Guillera table are a corollary. The proof relies on cited
   published results and is not peer reviewed.
 repository-code: "https://github.com/bigjokker/ramanujan-harmonic"
+doi: 10.5281/zenodo.23093935
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23093935
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23093936
+    description: "Version 1.0.0"
 keywords:
   - Ramanujan series
   - 1/pi series

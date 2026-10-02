@@ -1,5 +1,7 @@
 # Ramanujan's 1/π series and harmonic numbers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23093935.svg)](https://doi.org/10.5281/zenodo.23093935)
+
 A proof, with computer verification, of Conjecture 1 from [MathOverflow question 507693](https://mathoverflow.net/questions/507693/ramanujans-pi-series-and-harmonic-numbers).
 
 ## The result
@@ -86,6 +88,6 @@ Clausen's identity and the symmetric-square property, which are often cited, are
 
 ## Citation and licensing
 
-Use the author name **Open** when citing this work. GitHub citation metadata is in [CITATION.cff](CITATION.cff), and the release is archived on Zenodo. This is not a peer-reviewed publication.
+Use the author name **Open** when citing this work. The Zenodo archive is [10.5281/zenodo.23093935](https://doi.org/10.5281/zenodo.23093935) for all versions and [10.5281/zenodo.23093936](https://doi.org/10.5281/zenodo.23093936) for version 1.0.0. That DOI records the archived release. It is not a journal publication, and the work has not been peer reviewed. GitHub citation metadata is in [CITATION.cff](CITATION.cff).
 
 Code and software documentation are licensed under [MIT](LICENSE). The proof in `docs/proof.md` and the numerical reports in `results/` are licensed under [CC BY 4.0](LICENSE-CONTENT.md). The series parameters in `table.py` are transcribed from the Cohen–Guillera table and credited to its authors; cited publications are outside these grants.
