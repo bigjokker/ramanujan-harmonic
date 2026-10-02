@@ -83,3 +83,9 @@ Clausen's identity and the symmetric-square property, which are often cited, are
 - K. Ono, *The Web of Modularity*, CBMS 102, AMS, 2004.
 - J.-P. Serre, *A Course in Arithmetic*, GTM 7, Springer, 1973.
 - T. M. Apostol, *Modular Functions and Dirichlet Series in Number Theory*, GTM 41, Springer.
+
+## Citation and licensing
+
+Use the author name **Open** when citing this work. GitHub citation metadata is in [CITATION.cff](CITATION.cff), and the release is archived on Zenodo. This is not a peer-reviewed publication.
+
+Code and software documentation are licensed under [MIT](LICENSE). The proof in `docs/proof.md` and the numerical reports in `results/` are licensed under [CC BY 4.0](LICENSE-CONTENT.md). The series parameters in `table.py` are transcribed from the Cohen–Guillera table and credited to its authors; cited publications are outside these grants.

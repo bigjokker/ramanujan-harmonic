@@ -1,0 +1,36 @@
+{
+  "title": "Ramanujan's 1/π Series and Harmonic Numbers: Proof and Verification",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Open"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "description": "<p>A proof, with computer verification, of Conjecture 1 from MathOverflow question 507693 on Ramanujan-type 1/&pi; series and harmonic numbers. For the rational hypergeometric series of levels N = 1, 2, 3, 4, the index derivative of the summand satisfies &Sigma; f'(n) = 2&pi;i &tau;&#771; &Sigma; f(n), with &tau;&#771; = &tau; when a &gt; 0 and &tau;&#771; = &tau; &minus; 1 when a &lt; 0. Taking real parts gives the conjectured Re &Sigma; f'(n) = &minus;2&pi; Im(&tau;) &Sigma; f(n).</p><p>The identity is proved for every &tau; on the imaginary axis above i/&radic;N, and for every &tau; on the line Re &tau; = 1/2 above the corner of the fundamental domain of &Gamma;<sub>0</sub>(N)+ with &minus;1 &le; 1/J<sub>N</sub>(&tau;) &lt; 0. It does not use complex multiplication. The 36 convergent series of the Cohen&ndash;Guillera table follow as a corollary, using the pairing J<sub>N</sub>(&tau;) = a printed in that table.</p><p>The proof relies on cited published results: Abramowitz&ndash;Stegun 15.3.10, Ramanujan's inversion theorems (Jacobi, and Berndt&ndash;Bhargava&ndash;Garvan 1995), and standard facts on modular forms (Sturm's bound, the Gordon&ndash;Hughes&ndash;Newman criterion and Ligozat's cusp orders). Each is cited by page. Clausen's identity and the fundamental domain are proved in the text. The modular-form identities linking the inversion theorems to the Hauptmoduln are proved by exact coefficient comparison up to the Sturm bound. The Python package checks each intermediate claim and tests the identity on all 36 series and at non-CM points.</p><p>This is not a peer-reviewed publication. The work was developed with AI assistance, and the adversarial reviews it went through were also AI-based. No literature-priority claim is made. The proof and numerical reports are under Creative Commons Attribution 4.0; the software is under MIT. The series parameters are transcribed from the Cohen&ndash;Guillera table and are credited to its authors. Third-party papers and books are not included.</p><p>Reproduction uses Python 3.11 or later with mpmath and sympy. See the README.</p>",
+  "keywords": [
+    "Ramanujan series",
+    "1/pi series",
+    "harmonic numbers",
+    "hypergeometric functions",
+    "modular forms",
+    "Hauptmodul",
+    "Sturm bound"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://mathoverflow.net/questions/507693",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "arXiv:2101.12592",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Source code, proof, and verification reports: https://github.com/bigjokker/ramanujan-harmonic. Cite the author name as Open."
+}

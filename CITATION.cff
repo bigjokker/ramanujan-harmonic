@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Ramanujan's 1/π Series and Harmonic Numbers: Proof and Verification"
+authors:
+  - name: "Open"
+version: "1.0.0"
+date-released: "2026-10-01"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  A proof, with computer verification, of Conjecture 1 from MathOverflow
+  question 507693: for the rational hypergeometric Ramanujan 1/π series,
+  sum f'(n) = 2πi τ~ sum f(n), so Re sum f'(n) = -2π Im(τ) sum f(n).
+  The identity holds on the imaginary axis above i/√N and on the line
+  Re τ = 1/2, without complex multiplication; the 36 convergent series of
+  the Cohen–Guillera table are a corollary. The proof relies on cited
+  published results and is not peer reviewed.
+repository-code: "https://github.com/bigjokker/ramanujan-harmonic"
+keywords:
+  - Ramanujan series
+  - 1/pi series
+  - harmonic numbers
+  - hypergeometric functions
+  - modular forms
+  - Hauptmodul
+  - Sturm bound
